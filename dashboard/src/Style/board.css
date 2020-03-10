@@ -1,0 +1,16 @@
+.Board {
+    display: grid;
+    grid-template-columns: 330px 330px 330px 330px 330px;
+    grid-template-rows: 170px 170px 170px 170px 170px;
+    grid-gap: 30px;
+    margin: 20px;
+
+}
+
+.Board-center {
+    display: flex;
+    flex-direction: column;
+    flex: 6;
+    justify-content: center;
+    place-items: center;
+}

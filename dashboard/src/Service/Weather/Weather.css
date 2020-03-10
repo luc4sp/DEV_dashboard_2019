@@ -1,0 +1,79 @@
+.Back-widget {
+    background-image: url("../../front/pluie.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border: 5px ;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #555;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+.button {
+    position: relative;
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #FFF;
+    background: #50a7ee;/*button color*/
+    border-bottom: solid 2px #50a7ee;/*daker color*/
+    border-radius: 4px ;
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.Button2 {
+    background-image: url("../../front/edit.png");
+    background-color: #FFF;
+    background-size: contain;
+    width: 7%;
+    height: 100%;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 1px 1px 6px #555;
+    cursor: pointer;
+}
+
+.ButtonDel {
+    background-image: url("../../front/bin.jpg");
+    background-color: #FFF;
+    background-size: contain;
+    width: 7%;
+    height: 100%;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 1px 1px 6px #555;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.button:active {
+    border-bottom: solid 2px #50a7ee;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.EditWeather {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 100%;
+    justify-content: space-around;
+    place-items: center;
+}
+
+.TopButtons {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    justify-content: flex-end;
+    margin: 5px;
+    height: 13%;
+}
+

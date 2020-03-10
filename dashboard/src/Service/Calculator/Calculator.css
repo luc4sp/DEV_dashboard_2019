@@ -1,0 +1,14 @@
+.Back-widget {
+    width: 300px;
+    height: 150px;
+    background-color: #ffffff;
+    border: 5px ;
+    border-radius: 10px;
+    padding-bottom: 2.5%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    box-shadow: 1px 1px 6px #555;
+}
+

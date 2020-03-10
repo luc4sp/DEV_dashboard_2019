@@ -1,0 +1,28 @@
+.add-widget {
+    background-image: url("../front/landscape.jpg");
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border: 5px ;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #555;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.add-widget:hover {
+    background-color: #e0e0e0;
+    transition: 0.5s;
+    width: 99%;
+    height: 99%;
+}
+
+.Icon-add {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    margin-left: 5%;
+    margin-top: 65%;
+    padding: 5%;
+  }

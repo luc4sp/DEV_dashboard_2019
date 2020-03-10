@@ -1,0 +1,26 @@
+.Back-widgetRandom {
+    background-image: url("../../front/randomThing.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border: 5px ;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #555;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+.fontwhite {
+    color: white;
+}
+
+
+.TopButtons {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    justify-content: flex-end;
+    margin: 5px;
+    height: 13%;
+}

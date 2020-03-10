@@ -1,0 +1,68 @@
+
+.Background {
+    background-image: url("../front/landscape.jpg");  
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Input {
+  width: 70%;
+  height: 33px;
+  border-color: #38bbe7;
+  border-radius: 5px;
+  color: black;
+  padding: 15px;
+}
+
+.button5{
+    background-color: #2b8cad;
+    border-radius: 4px !important;
+    padding: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+.button5:hover {
+    background-color: #93b5bf;
+    transition: 0.2s;
+}
+
+.button5:active {
+    background-color: #083947;
+    transition: 0.2s;
+}
+
+.Box {
+    display: flex;
+    width: 300px;
+    height: 650px;
+    background-color: #ffffff;
+    border: 5px ;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #555;
+    place-items: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+
+.Separator {
+    width: 90%;
+    height: 2px;
+    background-color: #2b8cad;
+    border-radius: 5px;
+}
+
+.Icon {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,30 @@
+enum WidgetType {
+    WEATHER
+    EXCHANGER
+    CRYPTOEXCHANGER
+    CALCULATOR
+    PASSWORD
+    RANDOMTHING
+    JOKE
+}
+
+type Widget {
+    id: ID! @id
+    type: WidgetType!
+    settings: String!
+}
+
+enum UserType {
+    USER,
+    ADMIN
+}
+
+type User {
+  id: ID! @id
+  firstName: String!
+  lastName: String!
+  email: String! @unique
+  password: String!
+  type: UserType @default(value: USER)
+  widgets: [Widget]
+}

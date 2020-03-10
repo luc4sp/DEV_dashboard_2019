@@ -1,0 +1,51 @@
+.FormStyle {
+    background-image: url("../../front/landscape.jpg");
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 3px #555;
+    border-radius: 4px;
+}
+.buttonCreate{
+    display: flex;
+    justify-content: space-around;
+    background-color: #2b8cad;
+    border-radius: 4px !important;
+    cursor: pointer;
+    color: #ffffff;
+    transition: 0.2s;
+    width: 30%;
+    height: 15%;
+    padding: 10px;
+    box-shadow: 1px 1px 3px #555;
+    text-align: center;
+}
+
+.buttonCreate:hover {
+    width: 31%;
+    background-color: #93b5bf;
+    transition: 0.2s;
+}
+
+.buttonCreate:active {
+    background-color: #083947;
+    transition: 0.2s;
+}
+
+.InputStyle {
+    width: 50%;
+    height: 33px;
+    border-color: #ffffff;
+    border-radius: 5px;
+    color: black;
+    padding: 15px;
+}
+
+.LabelStyle {
+    font-size: 30px;
+    color: #ffffff;
+}

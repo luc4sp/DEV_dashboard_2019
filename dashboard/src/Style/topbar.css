@@ -1,0 +1,55 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-image: url("../front/landscape.jpg");
+  display: flex;
+  flex-direction: column;
+  flex: 6;
+  height: 100%;
+  overflow: hidden;
+  box-shadow: 1px 1px 6px #555;
+  place-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: #50a7ee;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  height: 60px;
+  margin-top: 50px;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #458fcc;
+  color: #f5f5f5;
+}
+.Icon {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  margin-left: 1%;
+  transition: 0.5s;
+}
+
+.Icon:hover {
+  width: 80px;
+  height: 80px;
+  transition: 0.5s;
+}
+
+.IconLogout {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  transition: 0.5s;
+}
+
+.IconLogout:hover {
+  width: 60px;
+  height: 60px;
+  transition: 0.5s;
+}

@@ -1,0 +1,65 @@
+.Back {
+    background-image: url("../../front/crypto.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border: 5px ;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #555;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.ButtonSetCrypto {
+    background-image: url("../../front/edit.png");
+    background-size: contain;
+    width: 7%;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    box-shadow: 1px 1px 6px #555;
+    cursor: pointer;
+}
+
+.EditCrypto {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    place-items: center;
+}
+
+.ButtonCrypto {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    margin-bottom: 10%;
+    height: 15%;
+    width: 75%;
+    cursor: pointer;
+}
+
+.Button3 {
+    position: relative;
+    background-image: url("../../front/bin.jpg");
+    background-color: #FFF;
+    background-size: contain;
+    margin-top: 5px;
+    width: 7%;
+    margin-left: 90%;
+    height: 30%;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 1px 1px 6px #555;
+}
+
+
+.SelectCrypto {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
